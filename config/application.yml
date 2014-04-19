@@ -1,0 +1,8 @@
+development:
+  host: 'example.com'
+  success_page: 'success'
+  failure_page: 'failure'
+test:
+  host: 'example.com'
+  success_page: 'success'
+  failure_page: 'failure'
