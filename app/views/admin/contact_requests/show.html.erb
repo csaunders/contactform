@@ -1,0 +1,6 @@
+<h1>Contact Request from <%= contact_request.name %></h1>
+<p>Created At: <%= contact_request.created_at %></p>
+<p>Contact Details: <%= mail_to contact_request.email, "Send an email to #{contact_request.name}" %></p>
+
+<p><%= contact_request.formatted_message %></p>
+

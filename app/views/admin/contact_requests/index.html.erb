@@ -1,0 +1,5 @@
+<ul>
+<% for request in contact_requests do %>
+<li><%= link_to "Request from #{request.name}", admin_contact_request_path(request) %></li>
+<% end %>
+</ul>

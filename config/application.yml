@@ -2,7 +2,11 @@ development:
   host: 'example.com'
   success_page: 'success'
   failure_page: 'failure'
+  username: 'development'
+  password: 'password'
 test:
   host: 'example.com'
   success_page: 'success'
   failure_page: 'failure'
+  username: 'test'
+  password: 'password'
